@@ -2,11 +2,9 @@ import React from "react"
 
 const Department = () => {
     return (
-        <div>
-            <div className="container px-6 mx-auto grid">
-                <h2 className="my-6 text-2xl font-semibold text-gray-700">
-                    Dashboard
-                </h2>
+        <div className='w-full mx-0'>
+            <div className="grid">
+
                 <div className="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
                     <div className="flex items-center p-4 bg-white rounded-lg shadow-xs shadow-md">
 
