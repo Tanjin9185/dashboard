@@ -57,7 +57,7 @@ const ActiveAdmission = () => {
                 labels={labels}
                 height={350}
             />
-            <div className ="pt-5">
+            <div className="pt-5 mr-12">
                 <div className="flex justify-between">
                     <div>
                         <p>

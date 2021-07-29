@@ -40,8 +40,8 @@ const CommonDiseases = () => {
 
     const [labels, setLabels] = useState(["Heart Attacks", "Covid", "Typhoid"]);
     return (
-        <div className="rounded-lg bg-white flex flex-wrap">
-            <div className='w-1/3'>
+        <div className="rounded-lg bg-white flex flex-wrap ">
+            <div className='w-full  sm:justify-items-center lg:w-1/3'>
                 <div className='text-left'>
                     <div id="chart" >
                         <ReactApexChart
@@ -57,7 +57,7 @@ const CommonDiseases = () => {
                         <span>
                             {" "}
                             <FontAwesomeIcon
-                                className="text-blue-400 mx-2"
+                                className="text-blue-400"
                                 icon={faCircle}
                             />
                         </span>{" "}
@@ -76,7 +76,7 @@ const CommonDiseases = () => {
                     <p>
                         <span>
                             <FontAwesomeIcon
-                                className="text-yellow-400 mx-2"
+                                className="text-yellow-400"
                                 icon={faCircle}
                             />
                         </span>{" "}
@@ -84,7 +84,7 @@ const CommonDiseases = () => {
                     </p>
                 </div>
             </div>
-            <div className="w-2/3">
+            <div className="w-full flex justify-items-center lg:w-2/3">
                 <HealthChallenges />
             </div>
         </div>

@@ -255,8 +255,6 @@ const Sidebar = () => {
                                 )}
                             </div>
                         </nav>
-                        {/* Navigation ends */}
-                        {/* Remove class [ h-64 ] when adding a card block */}
                         <div className="">
                             <Department />
                             <Policy></Policy>
